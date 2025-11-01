@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+nav {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+}
+
+nav h2 {
+  display: inline-block;
+  margin: 0;
+}
+
+nav h2 span {
+  color: lightblue;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: lightblue;
+  padding: 80px 10px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  color: navy;
+}
+
+.hero span {
+  color: darkblue;
+}
+
+.hero button {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: darkblue;
+}
+
+#about {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.skills span {
+  background-color: lightgray;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+#projects {
+  background-color: white;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+#contact {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.social-links a {
+  color: navy;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+}
